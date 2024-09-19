@@ -1,6 +1,8 @@
-# Hackintosh Sonoma for HP Compaq Pro 6300 / Elite 8300 (OpenCore 1.0.0)
+# Hackintosh Sonoma / Sequoia for HP Compaq Pro 6300 / Elite 8300 (OpenCore 1.0.1)
 
-![Snapshot](images/snapshot.png)
+![Snapshot](images/sequoia-snapshot.png)
+
+* The colours of this screenshot are incorrect due to a glitch with the Nvidia graphics card and the [HiDPI mode](https://github.com/xzhih/one-key-hidpi). The display looks correct in real life.
 
 ## Notes
 1. There are two `.plist` files provided in the `OC` folder:
@@ -17,8 +19,8 @@
 	Rename the one you want to use to `SSDT.aml`. Or you can generate your own with [ssdtPRGen.sh](https://github.com/Piker-Alpha/ssdtPRGen.sh).
 	
 4. Configure IGPU if you don't use dGPU.
-5. These files are very similar to the [repository by aloha-cn](https://github.com/aloha-cn/Hackintosh-HP6300-HP8300-OpenCore). Drivers and OpenCore are updated, and `RestrictEvents.kext` and `revpatch=sbvmm` boot argument were added. Without these two additions, updates from System Settings do not work.
-6. This was only tested on a SATA SSD. To use NVMe or Apple PCIe SSD, you have to use a USB disk for boot (like when starting installation).
+5. These files are very similar to the [repository by aloha-cn](https://github.com/aloha-cn/Hackintosh-HP6300-HP8300-OpenCore). Drivers and OpenCore are updated for compatibility with the newer MacOS versions, and `RestrictEvents.kext` and `revpatch=sbvmm` boot argument are added to enable updates from System Settings.
+6. This was only tested on a SATA SSD. To use NVMe SSD or Apple PCIe SSD, you have to use a USB disk for boot (like when starting installation).
 
 ## References
 https://github.com/Sniki/HP6300-HP8300  
