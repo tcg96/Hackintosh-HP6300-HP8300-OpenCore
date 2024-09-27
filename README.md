@@ -2,7 +2,7 @@
 
 ![Snapshot](images/sequoia-snapshot.png)
 
-* The colours of this screenshot are incorrect due to a glitch with the Nvidia graphics card and the [HiDPI mode](https://github.com/xzhih/one-key-hidpi). The display looks correct in real life.
+* The colours of this screenshot are incorrect due to a glitch with macOS Sequoia. The display looks correct in real life. Sonoma does not have this screenshot issue.
 
 ## Notes
 1. There are two `.plist` files provided in the `OC` folder:
