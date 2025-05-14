@@ -2,8 +2,6 @@
 
 ![Snapshot](images/sequoia-snapshot.png)
 
-* The colours of this screenshot are incorrect due to a glitch with macOS Sequoia. The display looks correct in real life. Sonoma does not have this screenshot issue.
-
 ## Notes
 1. There are two `.plist` files provided in the `OC` folder:
 * `config-nvidia.plist` has SIP and Secure Boot disabled for the Nvidia Web Drivers that can be installed with the [OpenCore Legacy Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher/releases/latest) post-installation root patch.
